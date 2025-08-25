@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-[#C4B5A5]">
+    <header class="max-w-[1440px] mx-auto mt-[61px]">
+        <div class="flex justify-between items-center">
+            <h1 id="h1" class="text-black text-[29px] font-extrabold">LOGO</h1>
+        <div class="flex items-center gap-[30px]">
+            <ul class="flex gap-[88px]">
+                <li><a id="h2" href="#!" class="text-black text-[16px] font-[Poppins]">Home</a></li>
+                <li><a id="h3" href="#!" class="text-black text-[16px] font-[Poppins]">About us</a></li>
+                <li><a id="h4" href="#!" class="text-black text-[16px] font-[Poppins]">Portfolio</a></li>
+            </ul>
+            <div class="flex items-center gap-[30px]">
+                <button onclick="LightMode()" id="light" class="w-[131px] h-[41px] rounded-[6px] bg-[#FB982F] cursor-pointer">LightMode</button>
+                <button onclick="darkmode()" id="dark" class="w-[131px] h-[41px] rounded-[6px] bg-[#000] text-white cursor-pointer">DarkMode</button>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section class="max-w-[1440px] mx-auto mt-[80px] flex justify-between items-center">
+            <div>
+                <h1 id="h5" class="text-black text-[36px] font-extrabold w-[420px]">Work that we produce for our clients</h1>
+                <p id="h6" class="w-[426px] mt-[77px] mb-[81px] text-[16px] text-black font-[Poppins]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                <button class="w-[195px] h-[53px] rounded-[40px] bg-[#FA8305] cursor-pointer">Get more details</button>
+            </div>
+            <img src="./img/pyaniy kotik bez dushi.png" alt="">
+        </section>
+    </main>
+</body>
+<script src="./index.js"></script>
+
+</html>
